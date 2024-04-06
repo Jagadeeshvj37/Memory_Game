@@ -1,0 +1,44 @@
+
+body{
+    background-color:bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    
+}
+.game{
+    display: grid;
+    grid-template-columns: repeat(4,150px);
+    grid-row-gap: 3em;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+#gameBoard div{
+    height: 120px;
+    width: 80px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: rgb(156, 159, 161);
+}
+#gameBoard div:hover{
+    cursor: pointer;
+}
+.cardback{
+    background-color: rgb(118, 118, 231);
+    border: 2px solid white;
+}
+.won{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: aquamarine;
+    width:500px;
+    height: 500px;
+    margin: 0px auto;
+}
